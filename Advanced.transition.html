@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box {
+            background-color: green;
+            /* 색상만 적으면 해당 값만 트랜지션 효과가 적용됨 */
+            color: white;
+            /* hover기능으로 2초후에 배경색이 바뀐다,블루색상으로 */
+            /* 폰트와 배경색을 바꾸려면 background-color대신 all사용 */
+            transition: background-color 2s ease-in-out;
+        }
+
+        /* 커서올려둘때 */
+        /* .box:hover {
+            background-color: red;
+            color: blue;
+        } */
+
+        /* 클릭할때 */
+        .box:active {
+            background-color: red;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <span class="box">Text</span>
+</body>
+
+</html>

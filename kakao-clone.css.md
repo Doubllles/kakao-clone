@@ -1,3 +1,5 @@
+css  syntax
+
 css는 2가지 파트가 있다
 
 	1. selector : ex) h1{ 작성한 property를 넣는다 }
@@ -88,3 +90,16 @@ Inline-block을 사용하게 되면 자동으로 옆으로 붙는게 아니라, 
 
 Id,class를 사용하지 않고 pseudo-selector(가상 셀렉터:element가 아닌 것을 뜻함)를 사용할 수도 있음.
 
+
+
+트랜지션:*transition, 하나의 state에서 다른 tate로 넘어갈 때 나타나는 효과*
+
+트랜지션은 어떤 state가 바뀔때 적용이된다.
+
+state들은 hover, active, focus,visited가 있다.
+
+트랜지션은 hover, active, focus 에서 효과적으로 적용이됨. 
+
+
+
+트랜스포메이션:element의 모양새를 바꾸는 것
