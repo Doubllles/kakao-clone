@@ -103,3 +103,8 @@ state들은 hover, active, focus,visited가 있다.
 
 
 트랜스포메이션:element의 모양새를 바꾸는 것
+
+
+
+
+
