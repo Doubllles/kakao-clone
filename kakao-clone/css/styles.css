@@ -2,6 +2,14 @@
 @import "status-bar.css";
 @import "header.css";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;700&display=swap');
+@import "nav-bar.css";
+@import "friend.css";
+
+* {
+    box-sizing: border-box;
+}
+
+/* ex) w:300px이라고 설정하면 padding:20때문에 w가 더 커진다, 패딩이존재해도 box-size가 바뀌지 않게하는 실행이다, w:280으로 주어서 공간을 조금  */
 
 body {
     background-color: white;
@@ -13,4 +21,5 @@ body {
 /* 링크가 보라색이되는걸 막고 부모요소의 블랙으로 바뀌게함 */
 a {
     color: inherit;
+    text-decoration: none;
 }

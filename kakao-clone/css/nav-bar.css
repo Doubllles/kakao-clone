@@ -1,0 +1,39 @@
+.nav {
+    /* 포지션사용시 width를 써야한다, element를 기존 다른 것들에서부터(ex body) 떼어내서 다른 레이어에 올려놔야하기에 */
+    position: fixed;
+    width: 100%;
+    background-color: #fcfcfc;
+    padding: 20px 16px;
+    left: 0px;
+    bottom: 0px;
+    border-top: 1px solid #f7f7f7;
+}
+
+.nav .nav__list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav i {
+    font-size: 20px;
+}
+
+.nav .nav__list-link {
+    position: relative;
+}
+
+.nav .nav__badge {
+    position: absolute;
+    top: -7px;
+    right: -7px;
+    font-size: 10px;
+    color: white;
+    background-color: #dc5d46;
+    width: 18px;
+    height: 18px;
+    /* 숫자를 수직,수평 정렬하기위해 */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
